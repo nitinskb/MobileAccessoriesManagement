@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mobile Accessories Management
 
 Windows desktop inventory and sales application backed by an ASP.NET Core API and SQL Server. The desktop client is a React/TypeScript application packaged with Tauri; it communicates with the API over HTTP(S), and the API is the only component that accesses the database.
@@ -522,3 +523,7 @@ Test-NetConnection <API-DNS-NAME> -Port 443
 The source implements the modules and routes listed above. It does not currently implement a mobile client, supplier/purchase-order module, returns/refunds, reporting dashboard/export, inventory adjustment history browsing, or password-reset UI/API. These are not described as existing features here. `WeatherForecastController` is retained from the API template. Repository-level automated tests were not found during inspection.
 
 There is no checked-in `appsettings.Production.json`; production CORS, SQL connection, bootstrap credentials, HTTPS binding, certificate, IIS paths, and allowed origins must be supplied for each deployment. The README's example server names and paths are placeholders and require local confirmation.
+=======
+# MobileAccessoriesManagement
+A retail management system for mobile accessories shops, featuring product management, inventory tracking, barcode scanning, billing, purchases, customer and supplier records, payments, and sales reports.
+>>>>>>> b99e16b07cc5099fd638fa3972de54ffc7cc9879
