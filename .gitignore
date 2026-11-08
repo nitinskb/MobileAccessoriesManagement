@@ -1,0 +1,16 @@
+.vs/
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/target/
+
+.env
+.env.*
+!.env.example
+
+docpass.txt
+*.pfx
+*.p12
+*.key
+*.log

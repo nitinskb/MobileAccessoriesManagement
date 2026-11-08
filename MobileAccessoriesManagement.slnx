@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/Server/">
+    <Project Path="src/Server/MobileAccessories.Api/MobileAccessories.Api.csproj" />
+  </Folder>
+</Solution>
